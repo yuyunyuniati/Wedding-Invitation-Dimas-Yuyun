@@ -9,6 +9,11 @@ body {
     background-image: url("https://mdbootstrap.com/img/new/fluid/city/018.jpg");
 }
 
+.bg-black {
+    --bs-bg-opacity: 1;
+    background-image: url(https://mdbootstrap.com/img/new/fluid/city/018.jpg);
+}
+
 .font-esthetic {
     font-family: 'Sacramento', cursive !important;
 }
