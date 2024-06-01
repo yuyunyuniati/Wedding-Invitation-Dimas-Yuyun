@@ -9,7 +9,7 @@ export const theme = (() => {
     const theme = storage('theme');
 
     const onLight = () => {
-        const elements = document.querySelectorAll('.text-light, .btn-theme-light, .bg-dark, .bg-black, .bg-theme-dark, .color-theme-black, .btn-outline-light');
+        const elements = document.querySelectorAll('.text-light, .btn-theme-light, .bg-dark, .bg-black, .bg-image, .bg-theme-dark, .color-theme-black, .btn-outline-light');
         elements.forEach((element) => {
             if (element.classList.contains('text-light')) {
                 element.classList.remove('text-light');
@@ -27,6 +27,11 @@ export const theme = (() => {
             }
 
             if (element.classList.contains('bg-black')) {
+                element.classList.remove('bg-black');
+                element.classList.add('bg-white');
+            }
+
+            if (element.classList.contains('bg-image')) {
                 element.classList.remove('bg-black');
                 element.classList.add('bg-white');
             }
