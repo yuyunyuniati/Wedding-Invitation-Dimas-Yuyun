@@ -132,7 +132,8 @@ footer {
 }
 
 .bg-theme-dark {
-    background-color: var(--bs-gray-800);
+    background-image: url('https://yuyunyuniati.github.io/Wedding-Invitation-Dimas-Yuyun/assets/images/bg.jpeg');;
+    /* background-color: var(--bs-gray-800); */
 }
 
 .color-theme-white {
