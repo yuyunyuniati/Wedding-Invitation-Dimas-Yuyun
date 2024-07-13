@@ -6,7 +6,7 @@ html {
 body {
     font-family: 'Josefin Sans', sans-serif !important;
     padding: 0 !important;
-    background: url('https://yuyunyuniati.github.io/Wedding-Invitation-Dimas-Yuyun/assets/images/testbg.jpg') no-repeat center center fixed;
+    background-image: url('https://yuyunyuniati.github.io/Wedding-Invitation-Dimas-Yuyun/assets/images/testbg.jpg') no-repeat center center fixed;
     background-size: auto auto;
     background-size: 100% auto;
     margin: 0;

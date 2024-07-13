@@ -64,8 +64,19 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic&display=swap">
 
     <style>
-        .bg-img-id1 {
+        #bg-tesimg {
+            background-image: url('https://yuyunyuniati.github.io/Wedding-Invitation-Dimas-Yuyun/assets/images/testbg.jpg') no-repeat center center fixed;
+            background-size: auto auto;
+            background-size: 100% auto;
+            margin: 0;
+            padding: 0
 
+        }
+
+        @media screen and (max-width:800px) {
+            #bg-tesimg {
+            background-size: cover;
+            background-attachment:fixed }
         }
     </style>
 
@@ -566,7 +577,7 @@
     <!-- Welcome Page -->
     <div class="loading-page bg-black" id="welcome" style="opacity: 1;">
         <!-- <div class="d-flex justify-content-center align-items-center" style="background-size: 100% 100%; height: 900px; width: 100%; !important; background-image: url('https://yuyunyuniati.github.io/Wedding-Invitation-Dimas-Yuyun/assets/images/testbg3.jpg');"> -->
-            
+            <div class="d-flex justify-content-center align-items-center" id="bg-tesimg"></div>
             <div class="text-center">
                 <h1 class="font-esthetic mb-4" style="font-size: 2.5rem;">The Wedding Of</h1>
 
